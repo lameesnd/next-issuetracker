@@ -19,6 +19,7 @@ CREATE TABLE `Account` (
     `provider` VARCHAR(191) NOT NULL,
     `providerAccountId` VARCHAR(191) NOT NULL,
     `refresh_token` TEXT NULL,
+    `refresh_token_expires_in` INTEGER NULL,
     `access_token` TEXT NULL,
     `expires_at` INTEGER NULL,
     `token_type` VARCHAR(191) NULL,
